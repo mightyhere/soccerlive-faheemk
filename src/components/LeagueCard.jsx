@@ -14,7 +14,7 @@ function LeagueCard() {
                 <p className='py-4'>April 05, 2021</p>
                 <div>
                 <img className='h-4 w-4' src={manCity} alt="" />
-                <p>test</p>
+                <p>test2</p>
                 <img src={manUtd} alt="" />
             </div>
             </div>
