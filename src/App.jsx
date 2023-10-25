@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Filepath from './components/Filepath';
 import LeagueCard from './components/LeagueCard';
 import './App.css';
+import Standings from './components/Standings';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
      <Header/>
      <Filepath/>
      <LeagueCard/>
+     <Standings/>
     </div>
   );
 }
