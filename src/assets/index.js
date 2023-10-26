@@ -7,6 +7,8 @@ import premier from './premier.png'
 import england from './england.png'
 import w from './w.svg'
 import l from './l.svg'
+import footballPitch from './footballPitch.png'
+import Player from './Player.png'
 
 export{
     logo,
@@ -18,4 +20,6 @@ premier,
 england,
 w,
 l,
+footballPitch,
+Player
 }
