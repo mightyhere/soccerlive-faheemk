@@ -12,6 +12,7 @@ import Player from './Player.png'
 import player1 from './player1.png'
 import player2 from './player2.png'
 import player3 from './player3.png'
+import bellicon from './bellicon.png'
 
 export{
     logo,
@@ -27,5 +28,6 @@ footballPitch,
 Player,
 player1,
 player2,
-player3
+player3,
+bellicon
 }

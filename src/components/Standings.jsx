@@ -184,9 +184,9 @@ function Standings() {
     <td className=" text-center">{data.drawn}</td>
     <td className=" text-center">{data.lost}</td>
     <td className=" text-center hidden sm:table-cell">{data.goals}</td>
-    <td className=" text-center flex gap-2 justify-center">
+    <td className=" text-center  gap-2 justify-center hidden sm:flex">
     {data.lastfive.map((imageSrc, index) => (
-    <img key={index} src={imageSrc} alt='' className='hidden sm:block' />
+    <img key={index} src={imageSrc} alt='' className=' ' />
 ))}
     </td>
     <td className="p-2 text-center">{data.points}</td>

@@ -1,6 +1,6 @@
-import React from 'react';
+import React,{useState} from 'react';
 
-const Navitems = [
+const nav = [
   'Football',
   'Tennis',
   'Baseball',
@@ -12,14 +12,21 @@ const Navitems = [
 ];
 
 function Header() {
+  const [activeLink, setActiveLink] = useState(nav[0]);
+  
+  const handleLinkClick = (nav) => {
+    setActiveLink(nav);
+  };
   return (
     <div className='bg-white w-full h-[5rem] shadow-lg '>
       <div className='flex gap-10 justify-center items-center py-3'>
         <div className='flex items-center overflow-x-auto sm:gap-10 '>
-          {Navitems.map((nav, index) => (
+          {nav.map((nav, index) => (
             <li
-              className='list-none  text-neutral-700 p-[20px] cursor-pointer text-[18px]  hover:font-bold hover:border-b-2 hover:border-[#161B46]'
-              key={index}
+              className={`list-none  text-neutral-700 p-[20px] cursor-pointer text-[18px]  ${
+                activeLink === nav ? "font-bold border-primary border-b-2 " : ""
+              }`}
+              key={index} onClick={() => handleLinkClick(nav)}
             >
               {nav}
             </li>
