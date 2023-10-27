@@ -9,6 +9,9 @@ import w from './w.svg'
 import l from './l.svg'
 import footballPitch from './footballPitch.png'
 import Player from './Player.png'
+import player1 from './player1.png'
+import player2 from './player2.png'
+import player3 from './player3.png'
 
 export{
     logo,
@@ -21,5 +24,8 @@ england,
 w,
 l,
 footballPitch,
-Player
+Player,
+player1,
+player2,
+player3
 }

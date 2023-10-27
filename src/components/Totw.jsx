@@ -16,8 +16,8 @@ function Totw() {
             </svg>
         </button>
       </div>
-     <div className='  sm:p-5 sm:mt-4 '>
-     <div className='relative bg-[#BDE1CE] rounded-md w-[22rem] h-[38rem] ' style={{ backgroundImage: `url(${footballPitch})` }}>
+     <div className='  sm:p-5 sm:mt-4 md:p-4 '>
+     <div className=' bg-[#BDE1CE] rounded-md w-[22rem] h-[38rem]  ' style={{ backgroundImage: `url(${footballPitch})` }}>
        <div className=''>
        <div >
             <img src={Player} alt="" className='mt-4 ml-36' />
