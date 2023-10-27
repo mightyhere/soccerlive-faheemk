@@ -61,9 +61,9 @@ function TopPlayers() {
             <img
               src={player.playerImage}
               alt={player.playerName}
-              className="w-[6rem] h-[6rem]"
+              className=""
             />
-            <div className="p-2 mt-4 flex flex-col">
+            <div className="p-2  flex flex-col">
               <h1 className="text-lg font-semibold">{player.playerName}</h1>
               <div className="flex flex-row items-center">
                 <img src={player.clubImage} alt="" className="h-[1.5rem]" />

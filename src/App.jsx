@@ -24,7 +24,7 @@ function App() {
         <Totw/>
      </div>
      <div className='sm:flex px-4 sm:px-28 mt-4 gap-5 '>
-        <PlayerStats/>
+        <PlayerStats />
         <TopPlayers/>
      </div>
     </div>
