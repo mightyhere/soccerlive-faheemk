@@ -71,8 +71,8 @@ function TopPlayers() {
               </div>
             </div>
             <div className="  mt-6 mr-4 ">
-              <div className="bg-gradient-to-r from-green-600 via-green-500 to-green-600 w-10 h-8 rounded-lg items-cen">
-                <p className="text-white text-center">{player.rating}</p>
+              <div className="bg-gradient-to-r from-green-500 via-green-500 to-green-500 w-10 h-8 rounded-lg items-center">
+                <p className="text-white text-center p-1">{player.rating}</p>
               </div>
             </div>
           </div>

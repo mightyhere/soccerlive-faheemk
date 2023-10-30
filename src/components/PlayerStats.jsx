@@ -197,8 +197,8 @@ function PlayerStats() {
       <td className="p-2 text-center">{data.assists}</td>
       <td className="p-2 text-center">{data.passes}</td>
       <td className="p-2 text-center">
-      <div className="bg-gradient-to-r from-green-600 via-green-500 to-green-600 w-10 h-8 rounded-lg items-cen">
-                <p className="text-white text-center">{data.rating}</p>
+      <div className="bg-gradient-to-r from-green-500 via-green-500 to-green-500 w-10 h-8 rounded-lg items-cen">
+                <p className="text-white text-center p-1">{data.rating}</p>
               </div>
       </td>
     </tr>
